@@ -26,6 +26,11 @@ Setelah Minikube terinstal, Anda perlu membuat cluster node.
   ```bash
   sh create.sh
   ```
+- Testing dengan cara:
+  ```
+  kubectl get nodes
+  ```
+  Pastikan kedua nodes sudah dalam kondisi ready.
 
 - Anda dapat mengedit skrip `create.sh` sesuai kebutuhan untuk menyesuaikan konfigurasi cluster (misalnya, jumlah node, alokasi sumber daya, dll.).
 
@@ -37,7 +42,11 @@ Setelah cluster dibuat, Anda dapat mendeploy aplikasi ke dalam cluster Minikube.
   ```bash
   sh up.sh
   ```
-
+- Testing dengan cara:
+  ```
+  kubectl get pods
+  ```
+  Pastikan kedua pods sudah dalam kondisi ready.
 - Skrip `up.sh` akan membuat sumber daya yang diperlukan dalam cluster Kubernetes Anda dan mendeploy aplikasi.
 
 #### 4. **Tunneling untuk Akses Lokal dan Load Balancing**
