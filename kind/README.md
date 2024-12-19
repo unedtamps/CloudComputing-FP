@@ -65,4 +65,3 @@ Berikut adalah revisi langkah-langkah tersebut dengan struktur yang lebih jelas 
 
 --- 
 
-Jika ada langkah atau detail yang perlu ditambahkan, beri tahu saya! 😊
