@@ -63,5 +63,11 @@ Berikut adalah revisi langkah-langkah tersebut dengan struktur yang lebih jelas 
      ```
      (Gantilah `<NodeIP>` dan `<Port>` dengan nilai yang sesuai dari output perintah di atas.)
 
+    command yang mungkin membantu
+    ```bash
+    kubectl get svc
+    kubectl get nodes -o wide
+    kubectl get pods -o wide
+    ```
 --- 
 
